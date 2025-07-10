@@ -13,5 +13,9 @@ El objetivo principal fue aplicar y practicar conceptos básicos de desarrollo w
 🚫 **Este proyecto NO es responsive.**  
 Está diseñado únicamente para visualizarse correctamente en resoluciones de escritorio.
 
+## Ver el sitio web
+🌐 Podés visitar el sitio en el siguiente enlace:  
+[https://gioriof.github.io/crash-bandicoot-web/](https://gioriof.github.io/crash-bandicoot-web/)
+
 ## Autor
 Giovanna Iorio
