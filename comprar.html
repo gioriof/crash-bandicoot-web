@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crash Bandicoot</title>
+    <meta name="describe" content="obligatorio">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><img class="logo" src="img/logo.png" alt="Logo del header"></a>
+            <ul class="ulheader">
+                <li>
+                    <a href="#colecciones">Colecciones</a>
+                </li>
+                <li>
+                    <a href="#on the run">On the run</a>
+                </li>
+                <li>
+                    <a href="#creadores">Creadores</a>
+                </li>
+                <li>
+                    <a href="#galeria">Galeria</a>
+                </li>
+            </ul>
+        </nav>
+        <a id="comprar" href="comprar.html">Comprar</a> 
+        
+        
+    </header>
+
+    <section id="sectioncomprar">
+        <h2 id="titulo">COMPRAR</h2>
+        <div class="divcomprar">
+            <img src="img/compracrash.png" alt="paisaje segunda pagina">
+        </div>
+
+        <div id="tableform">
+            <div id="contenedorform">
+            <h2>DATOS DEL COMPRADOR</h2>
+            <form class="form" action="" method="get">
+                <label for="campo_nombre">Nombre</label>
+                <input type="text" id="campo_nombre" name="usuario" placeholder="Escribe tu nombre">
+                <label for="campo_email">Correo Electronico</label>
+                <input type="email" id="campo_email" name="email" placeholder="Escribe tu email">
+                <label for="campo_fecha">Numero de tarjeta</label>
+                <input type="fecha" id="campo_fecha" name="tarjeta" placeholder="XXXX XXXX XXXX XXXX">
+            
+                <div id="divforms">
+                <div>
+                <label for="campo_expiracion">Fecha de expiracion</label>
+                <input type="date" name="campo_expiracion" >
+            </div>
+
+            <div>
+                <label for="campo_codigo">ccv</label>
+                <input type="codigo" id="campo_codigo" name="codigo" required>
+            </div>
+                </div>
+            <div class="boton">
+                <input type="submit" value="Comprar">
+            </div>
+            
+            </form>
+        </div>
+
+
+        <div class="contenedortable"> 
+            <h2>PRODUCTOS</h2>
+            <table>
+                <tr>
+                <th>JUEGO</th>
+                <th>PRECIO</th>
+                </tr>
+
+            <tr>
+                <td>Crash Team Rumble</td>
+                <td> 30 USD</td>
+            </tr>
+            <tr>
+                <td>Crash Its About Time</td>
+                <td> 50 USD</td>
+            </tr>
+            <tr>
+                <td>Crash Nitro Kart</td>
+                <td> 60 USD</td>
+            </tr>
+            <tr>
+                <td>Crash Retro </td>
+                <td> 80 USD</td>
+            </tr>
+            <tr>
+                <td>Crash Lucha de Titanes</td>
+                <td> 20 USD</td>
+            </tr>
+            </table>
+        </div>
+        </div>
+    </section>
+
+
+<section id="ultimasection">
+    <h2>PERSONAJES</h2>
+
+    <div class="divarticles">
+
+        <article>
+            <img src="img/personajecrash.jpg" alt="personage crash">
+            <h3>Crash Bandicoot</h3>
+            <p>El protagonista del juego. Es un bandicut naranja medio loquito pero valiente, 
+                que siempre intenta detener los planes del malvado Dr. Cortex.</p>
+                <a href="https://www.youtube.com/watch?v=SB9zXbLt6FE" target="_blank">VER MAS</a>
+        </article>
+        <article>
+            <img src="img/personajecoco2.jpg" alt="personaje coco">
+            <h3>Coco Bandicoot</h3>
+            <p>Es la hermana menor de Crash. Súper inteligente, experta en tecnología y computadoras. A veces también es jugable.</p>
+            <a href="https://www.youtube.com/watch?v=NlD961umhpE" target="_blank">VER MAS</a>
+        </article>
+            <article>
+                <img src="img/personajeneocortex.jpg" alt="personaje Neo Cortex">
+                <h3> Dr. Neo Cortex</h3>
+                <p>El villano principal de la saga. Un científico malvado que creó a Crash... pero después lo quiere destruir. 
+                Siempre vuelve con planes para conquistar el mundo.</p>
+                <a href="https://www.youtube.com/watch?v=TbTiqEx9mfU" target="_blank" >VER MAS</a>
+            </article>
+            <article>
+                <img src="img/personajeaku.jpg" alt="personaje Aku Aku">
+                <h3>Aku Aku</h3>
+                <p>Es una máscara mágica buena que protege a Crash y Coco. Cuando la agarrás en el juego, 
+                te da invulnerabilidad por un tiempo.</p>
+                <a href="https://www.youtube.com/watch?v=aux6PAb16QU" target="_blank">VER MAS</a>
+            </article>
+        
+    </div>
+        
+</section>
+
+
+<footer>
+        <p>Creado por: Giovanna Iorio Forestero</p>
+        <div id="footerimg">
+            <a href="https://www.instagram.com/CrashBandicoot/" target="_blank"><img  src="img/instagram.svg" alt="instagram footer"></a>
+            <a href="https://www.facebook.com/CrashBandicoot/" target="_blank"><img src="img/facebook.svg" alt="facebook footer"></a>
+            <a href="https://x.com/CrashBandicoot" target="_blank"><img src="img/twitter.svg" alt="twitter footer"></a> 
+        </div>
+    </footer>
+
+</body>
+</html>

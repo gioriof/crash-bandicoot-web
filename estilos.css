@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Alfa Slab One", serif;
+    background-color: #4a7d5e;
+}
+
+/**Header**/
+header{
+    background-color: #1d5734 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.ulheader{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #ea9b42 ;
+    box-shadow: 0px 4px 10px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 16px;
+    padding-right: 20px;  
+}
+
+header img{
+    margin-left: 20px;
+    width: 150px;
+}
+
+#comprar{
+    margin-right: 50px;
+    background-color: #d7802c ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+
+/**Header**/
+
+
+/**Banner**/
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(img/imgbanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+.divbanner h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding-top: 50px;
+    color: #d7802c  ;
+    text-shadow: 9px 9px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-family: "Alfa Slab One", serif;
+}
+
+.divbanner p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgb(237, 131, 17);
+    margin: 0 auto; 
+    width: 1200px;
+}
+/**Banner**/
+
+
+/**Section 1 - Priemras Colecciones**/
+.sectioncolecciones{
+    margin: 0 auto;
+    padding: 5px 0;
+    width: 1200px;
+}
+
+.divsection{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin-bottom: 90px;
+    gap: 40px;
+}
+
+
+.sectioncolecciones h2{
+    text-align: center;
+    margin: 80px;
+    font-size: 40px;
+    color: #d7802c;
+    text-shadow: 3px 3px 9px black;
+}
+
+
+.divsection article img{
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.divsection h3{
+    color: #d7802c;
+    text-shadow: 3px 3px 7px #000000;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.divsection p{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+/**Section 1 - Priemras Colecciones**/
+
+
+/**Section 2 - On the Run**/
+.sectionontherun{
+    background-image: url(img/crashontherun.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.sectionontherun h2{
+    padding-top: 90px;
+    color: #d7802c;
+    font-size: 50px;
+    text-shadow: 3px 3px 9px rgb(24, 106, 20);
+    margin-bottom: 50px;
+    
+}
+
+.sectionontherun blockquote{
+    font-size: 30px;
+    color: #000000;
+    text-shadow: 1px 1px 3px rgb(237, 131, 17);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.sectionontherun p{
+    padding: 40px 0;
+    margin: 0 auto;
+    text-shadow: 1px 1px 3px rgb(237, 131, 17);
+}
+/**Section 2 - On the Run**/
+
+
+/**Section 3 - Creadores**/
+.contenedor{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.sectioncreadores h2{
+    text-align: center;
+    color: #d7802c;
+    font-size: 50px;
+    text-shadow: 4px 5px 10px rgb(0, 0, 0);
+    margin-top: 90px;
+
+}
+
+.imagensectioncreadores .articlesectiontres{
+    width: 50%;
+}
+
+.imagensectioncreadores img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.articlesectiontres ol li {
+    list-style-type: disc;
+    list-style-position: inside;
+    
+}
+
+.articlesectiontres{
+    text-align: start;
+}
+
+.articlesectiontres p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.lista{
+    align-items: center;
+}
+/**Section 3 - Creadores**/
+
+
+/**Section 4 - Galeria**/
+.sectiongaleria h2{
+    text-align: center;
+    color: #d7802c;
+    font-size: 50px;
+    text-shadow: 4px 5px 10px rgb(0, 0, 0);
+    margin-bottom: 70px;
+}
+
+#imagenesgaleria{
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.imagenuno{
+    background-image: url(img/galeriauno.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 50%;
+}
+
+
+.imagenesgaleriados{
+    width: 50%;
+    height: 800px;
+}
+
+
+.imagendos{
+    background-image: url(img/galeriados.avif);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    
+} 
+
+.imagendos p{
+    text-align: center;
+    color: #030201;
+    text-shadow: 1px 1px 3px rgb(216, 142, 15);
+    padding-top: 170px;
+}
+
+.imagenesgaleriatres{
+    display: flex;
+    height: 50%;
+}
+
+.enlaceuno{
+    background-image: url(img/galeriatres.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.enlacedos{
+    background-image: url(img/galeriacuatro.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesgaleriatres a{
+    background-color: #449163;
+    border: #1d5734 solid 1px;
+    width: 100px;
+    text-align: center;
+}
+/**Section 4 - Galeria**/
+
+/**Footer**/
+footer{
+    background-color: #1d5734;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-size: 25px;
+}
+
+
+footer img{
+    height: 40px;
+    justify-content: flex-end;
+}
+
+#footerimg{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+/**Footer**/
+
+
+/**PAGINA 2**/
+
+/**Section 1 - comprar**/
+#sectioncomprar{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#sectioncomprar #titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.divcomprar img{
+    margin: 0 auto;
+    display: flex;
+    height: 650px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+}
+
+#sectioncomprar h2{
+    color: #d7802c;
+    font-size: 30px;
+    text-shadow: 4px 5px 10px rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#sectioncomprar{
+    margin-bottom: 150px;
+    width: 1200px;
+    margin-top: 100px;
+}
+
+img{
+    border-radius: 5px;
+}
+/**Section 1 - comprar**/
+
+
+/**Form - table**/
+#ultimasection h2{
+    color: #d7802c;
+    font-size: 50px;
+    text-shadow: 4px 5px 10px rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.form{
+    flex-direction: column;
+    width: 500px;
+}
+
+.form label{
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+input{
+    padding: 10px;
+    background-color: #a0b6a9;
+    height: 30px;
+}
+
+form{
+    display: flex;
+    
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 184px;
+    height: 50px;
+}
+
+input[type=date]{
+    width: 184px;
+}
+
+input[type=submit]:hover{
+    background-color: #c87808;
+}
+
+input[type=submit]:active{
+    background-color: #888888;
+}
+
+#divforms{
+    display: flex;
+    margin-top: 20px;
+}
+
+.boton{
+    display: flex;
+    justify-content: right;
+}
+
+
+table{
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+th , td{
+    border: 3px solid black;
+    background-color: #a0b6a9;
+    text-align: start;
+    padding-left: 10px;
+}
+
+#tableform{
+    display: flex;
+    justify-content: space-between;
+
+}
+/**Form - table**/
+
+/**Section ultima - personajes**/
+.divarticles{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.divarticles h3{
+    color: #d7802c;
+    text-shadow: 3px 3px 5px #000000;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.divarticles p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 100px;
+    font-size: 18px
+}
+
+.divarticles article{
+    background-color: #a0b6a9;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.divarticles article img{
+    width: 400px;
+    height: 230px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.divarticles article a{
+    background-color: #3f865b;
+    border: #030201 solid 1px;
+    margin-top: 30px;
+}
+/**Section ultima - personajes**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
